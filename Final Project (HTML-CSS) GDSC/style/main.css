@@ -1,0 +1,623 @@
+/* start global components */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* end global components */
+/* ================================== */
+.header{
+    width: 100%;
+    height: 75px;
+    background-color: #00000098;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+}
+
+/* ================================== */
+
+/* ================================== */
+.logo{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 85px;
+    z-index: 10;
+}
+
+.white-logo{
+    display: inline-block;
+    width: auto;
+    height: 55px;
+}
+/* ================================== */
+
+/* ================================== */
+.navbar-links{
+    display: inline-block;
+    list-style: none;
+    padding: 13px;
+    position: relative;
+    top: -30px;
+    left: 730px;
+    font-size: 19px;
+    color: white;
+    z-index: 10;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: #e2785d;
+}
+/* ================================== */
+.blue-image{
+    width: 100%;
+    height: 607px;
+    background-image: url(../images/shutterstock_277750193.webp);
+    background-size: cover;
+    position: relative;
+    top: -105px;
+}
+/* ================================== */
+.brand-h-p{
+    width: 700px;
+    height: 522px;
+    margin: auto;
+}
+
+.brand{
+    width: 400px;
+    height: auto;
+    /* z-index: 100; */
+    position: relative;
+    left: 17%;
+    top: 55px;
+    margin-left: 15px;
+}
+
+.french-restaurant{
+    color: #ffffffff;
+    margin: 70px 0 30px 0 ;
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    position: relative;
+    left: 8%;
+}
+
+.french-restaurant-description{
+    color: #ffffffeb;
+    font-size: 40px;
+    /* font-family: 'Alegreya Sans', sans-serif; */
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    left: 14%;
+}
+/* ================================== */
+.button1,
+.button2{
+    position: relative;
+    left: 27%;
+    height: 60px;
+    width: 140px;
+    margin: 40px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ======= */
+.button1{
+    background-color: #c1ab84;
+    color: #ffffff;
+}
+.button1:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+/* ======= */
+
+.button2{
+    background-color: #ffffff;
+    color: #000000;
+}
+.button2:hover{
+    background-color: #8b8888;
+    color: #ffffff;
+}
+/* ================================== */
+
+
+.chef-section{
+    display: inline-block;
+    background-color: #ffffff;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    top: -105px;
+    
+}
+.pros-list{
+    vertical-align: middle;
+    width: 550px;
+    height: 780px;
+    position: relative;
+    top: -75%;
+    left: 53%;
+}
+.chef-image{
+    margin: 85px 400px 20px 85px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.we-are-a-family-business,
+.reviewers-h2,
+.dishes-h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #253048;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.h2-continue,
+.reviewers-h3,
+.dishes-h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    color: #c1ab84;
+    line-height: 39px;
+    margin-bottom: 10px;
+}
+
+.h2-description,
+.li1,
+.li2,
+.li3,
+.li4,
+.reviewers-p,
+.reviewers-li1,
+.reviewers-li2,
+.reviewers-li3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 33px;
+    list-style: none;
+}
+.h2-description{
+    margin-bottom: 40px;
+}
+
+.li1{
+    list-style-image: url(../images/tree\ icon.png);
+}
+.li2{
+    list-style-image: url(../images/people\ icon.png);
+}
+.li3{
+    list-style-image: url(../images/heart\ icon.png);
+}
+.li4{
+    list-style-image: url(../images/right\ icon.png);
+}
+/* ================================================== */
+.reviewers{
+    width: 100%;
+    height: 620px;
+    margin-bottom: 40px;
+    background-color: #f8f8f8;
+    position: relative;
+    top: -750px;
+}
+.feedback{
+    display: inline-block;
+    width: 45%;
+    height: 50%;
+    position: relative;
+    left: 6%;
+    top: 7%;
+    padding: 20px 15px 0;
+}
+
+.reviewers-p{
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.reviewers-li1{
+    list-style-image: url(../images/like_icon.png);
+    position: relative;
+    left: 30px;
+    top: -10px;
+}
+.reviewers-li2{
+    list-style-image: url(../images/like_icon.png);
+    position: relative;
+    left: 30px;
+    top: -10px;
+}
+.reviewers-li3{
+    list-style-image: url(../images/like_icon.png);
+    position: relative;
+    left: 30px;
+    top: -10px;
+}
+
+
+.reviewers-image{
+    display: inline-block;
+    width: 19%;
+    height: 200px;
+}
+.reviewers-photo{
+    width: 200%;
+    height: auto;
+    position: relative;
+    left: 60%;
+    top: -25%;
+}
+/* ================================================= */
+
+.image-section{
+    width: 102%;
+    height: auto;
+}
+.restaurant-image{
+    position: relative;
+    top: -790px;
+    left: -2px;
+    height: 600px;
+    width: 98.2%;
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%);
+}
+/* ================================================= */
+
+.dishes-section{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    top: -794px;
+    margin-bottom: 100px;
+}
+
+.dishes-h2,
+.dishes-h3{
+    position: relative;
+    left: 40%;
+
+}
+.dishes-h2{
+    margin-top: 40px;
+}
+.dishes-h3{
+    margin-bottom: 30px;
+}
+
+
+
+/* ================================================= */
+
+.dishes{
+    position: relative;
+    left: 2%;
+    background-size: cover;
+    width: 400px;
+    padding: 30px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.dishes-name{
+    display: flex;
+    justify-content: center;
+    font-family: 'Alegreya', serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: #253048;
+    line-height: 29px;
+    margin-bottom: 10px;
+}
+
+.dishes-p{
+    display: flex;
+    justify-content: center;
+    width: 380px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 33px;
+    padding: 10px;
+    position: relative;
+    left: 7%;
+}
+
+.button3{
+    position: relative;
+    left: 45%;
+    top: -860px;
+    height: 50px;
+    width: 140px;
+    margin: 40px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #c1ab84;
+}
+.button3:hover{
+    background-color: #253048;
+}
+
+.button-link:hover{
+    color: #c1ab84;
+}
+.button-link{
+    color: #ffffffff;
+    text-decoration: none;
+}
+/* ================================================= */
+.testimonials-section{
+    position: relative;
+    top: -790px;
+}
+
+.spices{
+    width: 100%;
+    height: 600px;
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%);
+
+}
+.comment{
+    position: relative;
+    left: 570px;
+    top: -550px;
+}
+.testimonials-h3{
+    position: relative;
+    left: 525px;
+    top: -500px;
+    color: #ffffffff;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.testimonials-p{
+    position: relative;
+    left: 180px;
+    top: -500px;
+    color: #ffffffff;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.name{
+    position: relative;
+    left: 580px;
+    top: -500px;
+    color: #ffffffff;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150px;
+}
+.brand-name{
+    position: relative;
+    left: 620px;
+    top: -600px;
+    color: #ffffffff;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150px;
+}
+/* ================================================= */
+
+.where-are-we{
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    left: 60px;
+    top: -1200px;
+    color: rgb(0, 0, 0);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.where-are-we-h2{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 100px;
+}
+
+.where-are-we-p,
+.where-are-we-p2,
+.contact-li{
+    position: relative;
+    color: #6c7680;
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+}
+.where-are-we-p{
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.where-are-we-p2{
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 20px;
+
+}
+
+.map{
+    display: inline-block;
+    position: relative;
+    top: -1170px;
+    left: 100px;
+}
+
+.about{
+    width: 100%;
+    background-color:#403d38;
+    height: 450px;
+    position: relative;
+    top: -1100px;
+}
+
+.table-head{
+    width: 900px;
+    padding: 40px  110px;
+    color: #ffffff ;
+    font-family: 'Alegreya', serif;
+
+}
+
+.footer{
+    background-color: #353330;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: -1100px;
+}
+
+.looogo{
+    position: relative;
+    left: 450px;
+
+}
+
+.copyright{
+    color: #8b8888;
+    position: relative;
+    left: 530px;
+    top: 40px;
+
+    
+}
+
+
+/* ================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
